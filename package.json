@@ -11,7 +11,7 @@
     "day": "f(){ bun run src/$1/run.ts; }; f"
   },
   "devDependencies": {
-    "bun-types": "^1.1.38",
+    "@types/bun": "^1.1.14",
     "typescript": "^5.7.2"
   }
 }
