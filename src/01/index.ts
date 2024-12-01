@@ -16,7 +16,8 @@ export function prepareInput(i: string): Input {
 export function partOne(i: Input): number {
   let result = 0;
   const [lSort, rSort] = i.map((x) => x.slice().sort((a, b) => a - b));
-  for (let j = 0; j < lSort.length; j++) result += Math.abs(lSort[j] - rSort[j]);
+  for (let j = 0; j < lSort.length; j++)
+    result += Math.abs(lSort[j] - rSort[j]);
   return result;
 }
 

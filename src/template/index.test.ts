@@ -2,7 +2,9 @@ import { file, resolveSync } from "bun";
 import { expect, test } from "bun:test";
 import { partOne, partTwo, prepareInput } from ".";
 
-const iTest = await file(resolveSync("./input.test.txt", import.meta.dir)).text();
+const iTest = await file(
+  resolveSync("./input.test.txt", import.meta.dir),
+).text();
 
 const input = prepareInput(iTest);
 
