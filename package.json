@@ -1,0 +1,17 @@
+{
+  "name": "@carlosala/aoc2024",
+  "version": "0.1.0",
+  "description": "My own Advent of Code resolution in Typescript",
+  "type": "module",
+  "repository": "https://github.com/carlosala/aoc2024",
+  "author": "Carlo Sala <carlosalag@protonmail.com>",
+  "license": "MIT-0",
+  "private": true,
+  "scripts": {
+    "day": "f(){ bun run src/$1/run.ts; }; f"
+  },
+  "devDependencies": {
+    "bun-types": "^1.1.38",
+    "typescript": "^5.7.2"
+  }
+}
