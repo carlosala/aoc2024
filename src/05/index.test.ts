@@ -9,8 +9,8 @@ const iTest = await file(
 const input = prepareInput(iTest);
 
 test("Part 1", () => {
-  expect(partOne(input)).toBe(0);
+  expect(partOne(input)).toBe(143);
 });
 test("Part 2", () => {
-  expect(partTwo(input)).toBe(0);
+  expect(partTwo(input)).toBe(123);
 });
